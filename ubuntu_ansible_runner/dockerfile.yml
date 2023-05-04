@@ -1,0 +1,24 @@
+FROM python:3.8-slim-buster
+ARG GIT_URL=url
+# Install required packages
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        openssh-client \
+        sshpass \
+        git \
+        gcc \
+        libssl-dev \
+        libffi-dev \
+    && rm -rf /var/lib/apt/lists/*
+RUN git clone $GIT_URL
+# Install Ansible and Ansible Runner
+RUN pip install ansible ansible-runner
+
+# Copy the Ansible playbook and inventory to the container
+COPY playbook.yml inventory.ini ./
+
+# Set the working directory to the root of the playbook
+WORKDIR /
+
+# Run the playbook using Ansible Runner
+CMD ansible-runner run --playbook playbook.yml --inventory inventory.ini
