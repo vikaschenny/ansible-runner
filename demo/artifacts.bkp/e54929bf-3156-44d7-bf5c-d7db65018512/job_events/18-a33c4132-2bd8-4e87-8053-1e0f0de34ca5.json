@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "a33c4132-2bd8-4e87-8053-1e0f0de34ca5", "counter": 18, "stdout": "\u001b[1;35mpackages/ansible/plugins/connection/vmware_tools.py) as it seems to be invalid:\u001b[0m", "start_line": 17, "end_line": 18, "runner_ident": "e54929bf-3156-44d7-bf5c-d7db65018512", "created": "2023-05-16T06:01:21.497919"}

@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "ba483471-2bd0-4baa-8ef3-e9fbd1361ef9", "counter": 4, "stdout": "\u001b[1;35mpackages/ansible/plugins/connection/httpapi.py) as it seems to be invalid:\u001b[0m", "start_line": 3, "end_line": 4, "runner_ident": "0ce4ed8f-7f4e-4b3d-8c2d-b4434adf49bd", "created": "2023-05-16T05:59:25.920988"}

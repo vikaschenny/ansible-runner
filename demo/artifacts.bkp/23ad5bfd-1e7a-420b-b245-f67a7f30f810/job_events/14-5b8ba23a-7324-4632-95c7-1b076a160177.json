@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "5b8ba23a-7324-4632-95c7-1b076a160177", "counter": 14, "stdout": "\u001b[0;31mThe error appears to be in '/root/demo/playbookone.yaml': line 7, column 7, but may\u001b[0m", "start_line": 13, "end_line": 14, "runner_ident": "23ad5bfd-1e7a-420b-b245-f67a7f30f810", "created": "2023-05-16T06:00:04.518968"}

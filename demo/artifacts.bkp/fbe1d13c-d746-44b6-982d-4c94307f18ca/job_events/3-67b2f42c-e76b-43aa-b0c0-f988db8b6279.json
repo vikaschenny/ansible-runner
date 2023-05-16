@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "67b2f42c-e76b-43aa-b0c0-f988db8b6279", "counter": 3, "stdout": "\u001b[1;35m\u001b[0m\u001b[1;35m[WARNING]: Skipping plugin (/usr/lib/python3/dist-\u001b[0m", "start_line": 2, "end_line": 3, "runner_ident": "fbe1d13c-d746-44b6-982d-4c94307f18ca", "created": "2023-05-16T05:58:51.411915"}

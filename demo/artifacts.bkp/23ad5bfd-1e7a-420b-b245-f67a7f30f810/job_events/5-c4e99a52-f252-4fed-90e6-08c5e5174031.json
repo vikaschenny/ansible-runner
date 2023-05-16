@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "c4e99a52-f252-4fed-90e6-08c5e5174031", "counter": 5, "stdout": "\u001b[1;35mmodule 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'\u001b[0m", "start_line": 4, "end_line": 5, "runner_ident": "23ad5bfd-1e7a-420b-b245-f67a7f30f810", "created": "2023-05-16T06:00:04.516359"}

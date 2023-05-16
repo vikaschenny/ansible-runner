@@ -1,0 +1,16 @@
+---
+- name: Get device facts and configuration
+  hosts: 192.168.33.11
+  connection: local
+  gather_facts: yes
+  
+  tasks:
+    - name: Retrieve device facts and configuration and save facts to file
+      juniper.device.facts:
+        savedir: "{{ playbook_dir }}"
+        config_format: "xml"
+      register: result
+ 
+    - name: Print configuration
+      debug:
+        var: result.ansible_facts.junos.config

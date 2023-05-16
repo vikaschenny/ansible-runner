@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "fd96cf45-d5b6-45cd-b9e5-fe9e712f21ba", "counter": 13, "stdout": "\u001b[0;31m  found unexpected end of stream\u001b[0m", "start_line": 12, "end_line": 13, "runner_ident": "d7ea8ad8-66f4-4a4e-8796-5321b6351329", "created": "2023-05-16T05:52:39.634634"}

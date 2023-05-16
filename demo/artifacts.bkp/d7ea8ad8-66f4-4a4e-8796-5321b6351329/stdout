@@ -1,0 +1,18 @@
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that[0m
+[1;35mthe implicit localhost does not match 'all'[0m
+[1;35m[0m[1;35m[WARNING]: Skipping plugin (/usr/lib/python3/dist-[0m
+[1;35mpackages/ansible/plugins/connection/httpapi.py) as it seems to be invalid:[0m
+[1;35mmodule 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'[0m
+[1;35m[0m[1;35m[WARNING]: Skipping plugin (/usr/lib/python3/dist-[0m
+[1;35mpackages/ansible/plugins/connection/vmware_tools.py) as it seems to be invalid:[0m
+[1;35mmodule 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'[0m
+[1;35m[0m[1;35m[WARNING]: Skipping plugin (/usr/lib/python3/dist-[0m
+[1;35mpackages/ansible/plugins/connection/winrm.py) as it seems to be invalid: module[0m
+[1;35m'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'[0m
+[1;35m[0m[0;31mERROR! Syntax Error while loading YAML.[0m
+[0;31m  found unexpected end of stream[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/root/demo/playbookone.yaml': line 11, column 1, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31m(specified line no longer in file, maybe it changed?)[0m

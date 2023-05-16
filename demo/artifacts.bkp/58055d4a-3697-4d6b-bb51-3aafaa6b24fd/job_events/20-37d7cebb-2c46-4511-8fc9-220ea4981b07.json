@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "37d7cebb-2c46-4511-8fc9-220ea4981b07", "counter": 20, "stdout": "\u001b[0;31m    - name: Retrieve device facts and configuration and save facts to file\u001b[0m", "start_line": 19, "end_line": 20, "runner_ident": "58055d4a-3697-4d6b-bb51-3aafaa6b24fd", "created": "2023-05-16T05:56:39.732634"}
