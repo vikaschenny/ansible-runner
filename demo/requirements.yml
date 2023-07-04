@@ -1,4 +1,4 @@
 ---
 collections:
-  - name: community.aws
-    #    name: juniper.junos
+  - community.aws
+  - community.general

@@ -1,0 +1,9 @@
+---
+- name: Example playbook
+  hosts: all
+  gather_facts: true
+  tasks:
+    - name: Example task
+      debug:
+        msg: "Hello from {{ inventory_hostname }}"
+
