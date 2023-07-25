@@ -1,0 +1,4 @@
+git [platform:rpm]
+git [platform:dpkg]
+rsync
+zsh

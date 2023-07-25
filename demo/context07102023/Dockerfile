@@ -64,15 +64,12 @@ ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS
 ARG ANSIBLE_GALAXY_CLI_ROLE_OPTS
 
 RUN pip3 install --upgrade pip setuptools
-RUN python3 -m pip install importlib_metadata
 
 COPY --from=galaxy /usr/share/ansible /usr/share/ansible
 
 COPY --from=builder /output/ /output/
 RUN /output/scripts/install-from-bindep && rm -rf /output/wheels
 RUN ls -al /
-RUN mkdir -p /etc/ansible/
-COPY one /runner
 CMD ansible-runner run /tmp/ -p /runner/playbook.yml
 RUN rm -rf /output
 LABEL ansible-execution-environment=true

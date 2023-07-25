@@ -12,6 +12,5 @@ additional_build_steps:
     RUN python3 -m pip install importlib_metadata
   append:
     - RUN ls -al /
-    - RUN mkdir -p /etc/ansible/
-    - COPY one /runner
+    - ADD one /runner/
     - CMD ansible-runner run /tmp/ -p /runner/playbook.yml 
